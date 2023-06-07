@@ -30,7 +30,6 @@ function handleFormSubmission(event) {
     document.body.append(paragraph);
 }
 
-
 window.addEventListener("load", function(){
     const form = document.getElementById("word-puzzle-form");
     form.addEventListener("submit", handleFormSubmission);
